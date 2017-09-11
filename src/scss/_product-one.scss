@@ -1,0 +1,128 @@
+.product-one {
+  .title-bg {
+    background: url('../assets/prd-common-1.png') no-repeat top center;
+    width: 645px;
+    height: 187px;
+    margin: 0 159px;
+  }
+
+  h2 {
+    font: 48px '方正兰亭中黑_GBK', 'Microsoft Yahei', sans-serif;
+    color: #700008;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px #ffe63f;
+    padding-top: 90px;
+    margin-left: 176px;
+  }
+}
+
+.thermometer {
+  position: relative;
+  width: 100%;
+  height: 127px;
+  margin-left: 20px;
+
+  background: url('../assets/prd-1-3.png');
+
+  button {
+    width: 169px;
+    height: 56px;
+    padding-bottom: 5px;
+
+    position: absolute;
+    left: 44px;
+    top: 32px;
+
+    font-size: 29px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #401002;
+    background: linear-gradient(#f4c933 0, #fc7505 100%);
+    filter: drop-shadow(0 1px 1px #753601);
+    text-shadow: 1px 1px 1px #ffe63f;
+
+    cursor: pointer;
+  }
+
+  ul {
+    margin-left: 250px;
+    padding-top: 17px;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 108px;
+    color: #070707;
+    
+    &:nth-child(2) {
+      margin-right: 100px;
+    }
+    &:nth-child(3) {
+      margin-right: 118px;
+    }
+  }
+}
+
+.linker-one {
+  width: 941px;
+  height: 23px;
+  background: url('../assets/prd-1-5.png') no-repeat top center;
+  margin: 0 28px;
+}
+
+.content-one-wrapper {
+  width: 932px;
+  height: 470px;
+  padding: 11px 16px;
+  margin-left: 14px;
+
+  background: linear-gradient(to bottom, #f3d76a 0, #fefa87 40%, #f3d76a 100%);
+  border: 2px solid #172e4e;
+  border-radius: 16px;
+}
+
+.content-one {
+  width: 931px;
+  height: 362px;
+
+  border-radius: 20px;
+  border: 2px dotted #700008;
+
+  background: white;
+  background-image: radial-gradient(#fefb8a 2px, transparent 0),
+    radial-gradient(#fefb8a 2px, transparent 0);
+  background-size:  16px 16px;
+  background-position: 0 0, 8px 8px;
+
+  .content-title-wrapper {
+    width: 175px;
+    height: 51px;
+    margin: 30px auto;
+    margin-bottom: 7px;
+    padding: 0 0 2px 2px;
+
+    background: url('../assets/prd-1-4.png') no-repeat;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 48px;
+    color: #7c3a00;
+  }
+
+  .content-text-one {
+    margin: 0 47px;
+    
+    font-size: 18px;
+    line-height: 36px;
+    color: #7c3a00;
+
+    & + p {
+      margin-top: 18px;
+    }
+  }
+}
