@@ -90,17 +90,16 @@
   border-radius: 20px;
   border: 2px dotted #700008;
 
-  background: white;
-  background-image: radial-gradient(#fefb8a 2px, transparent 0),
-    radial-gradient(#fefb8a 2px, transparent 0);
-  background-size:  16px 16px;
-  background-position: 0 0, 8px 8px;
+  background: 
+    radial-gradient(#fefb8a 2px, transparent 0) 0 0 / 16px 16px,
+    radial-gradient(#fefb8a 2px, transparent 0) 8px 8px / 16px 16px;
+  background-color: white;
 
   .content-title-wrapper {
     width: 175px;
     height: 51px;
     margin: 30px auto;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
     padding: 0 0 2px 2px;
 
     background: url('../assets/prd-1-4.png') no-repeat;
@@ -118,11 +117,11 @@
     margin: 0 47px;
     
     font-size: 18px;
-    line-height: 36px;
+    line-height: 37px;
     color: #7c3a00;
 
     & + p {
-      margin-top: 18px;
+      margin-top: 15px;
     }
   }
 }
